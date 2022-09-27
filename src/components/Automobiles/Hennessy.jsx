@@ -1,6 +1,8 @@
+import style from './Automobiles.css';
+
 export default function Hennessy() {
   return (
-    <div>
+    <div className={style.Hennessy}>
         Hennessy
     </div>);
 }

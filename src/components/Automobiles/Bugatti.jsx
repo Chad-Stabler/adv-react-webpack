@@ -1,6 +1,8 @@
+import style from './Automobiles.css';
+
 export default function Bugatti() {
   return (
-    <div>
+    <div className={style.Bugatti}>
           Bugatti
     </div>);
 }

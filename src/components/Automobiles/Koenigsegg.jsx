@@ -1,6 +1,8 @@
+import style from './Automobiles.css';
+
 export default function Koenigsegg() {
   return (
-    <div>
+    <div className={style.Koenigsegg}>
           Koenigsegg
     </div>);
 }
